@@ -1,0 +1,54 @@
+{
+  "name": "react-custom-table",
+  "version": "1.1.0",
+  "description": "Render table in react, fully customizable, compatible with redux",
+  "main": "index.js",
+  "repository": "git@github.com:Da-Kuang/react-custom-table.git",
+  "scripts": {
+    "demo": "cd demo && webpack-dev-server --progress --hot --inline",
+    "dev": "webpack --progress  --watch"
+  },
+  "author": "Da Kuang",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18",
+    "chai": "^3.5.0",
+    "chai-jquery": "^2.0.0",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "react": "^15.0.2",
+    "react-addons-test-utils": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "webpack": "^2.1.0-beta.4",
+    "webpack-dev-server": "^2.0.0-beta"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "immutable": "^3.8.1"
+  },
+  "keywords": [
+    "react table",
+    "react table view",
+    "react-table",
+    "react redux table",
+    "react customizable table",
+    "react flex table",
+    "reactTable",
+    "reactable table",
+    "react",
+    "reactjs table",
+    "react.js table",
+    "react table component",
+    "table view",
+    "table component",
+    "react-table-view"
+  ]
+}
